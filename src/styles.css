@@ -139,14 +139,14 @@ body {
 
 .anime-row {
   display: flex;
-  flex-wrap: nowrap;        /* Ngăn xuống dòng */
-  overflow-x: auto;         /* Cho phép cuộn ngang */
+  flex-wrap: nowrap;       
+  overflow-x: auto;        
   gap: 20px;
   padding: 10px 0;
 }
 
 .anime-card {
-  flex: 0 0 auto;           /* Không co giãn, không co hẹp */
+  flex: 0 0 auto;          
   width: 180px;
   border-radius: 8px;
   padding: 10px;
@@ -193,39 +193,6 @@ body {
   margin: 4px;
   font-size: 1.2rem;
   opacity: 0.9;
-}
-
-
-/* Anime Detail Page */
-.anime-detail {
-  max-width: 800px;
-  margin: 40px auto;
-  padding: 20px;
-  border-radius: 12px;
-}
-
-.anime-detail img {
-  width: 100%;
-  max-height: 400px;
-  object-fit: cover;
-  border-radius: 8px;
-  margin-bottom: 20px;
-}
-
-.anime-detail h2 {
-  color: #f97316;
-  margin-bottom: 15px;
-}
-
-.anime-detail p {
-  line-height: 1.6;
-  color: #ccc;
-}
-
-.anime-detail a {
-  display: inline-block;
-  margin-bottom: 20px;
-  color: #38bdf8;
 }
 
 .anime-card {
