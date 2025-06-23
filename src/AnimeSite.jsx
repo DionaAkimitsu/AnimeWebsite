@@ -55,7 +55,6 @@ const AnimeSite = () => {
             </div>
         </ul>
       </section>
-      {/* Props: truyền dữ liệu từ item sang AnimeModal */}
       <AnimeModal anime={selectedAnime} onClose={() => setSelectedAnime(null)} />
     </div>
   );
